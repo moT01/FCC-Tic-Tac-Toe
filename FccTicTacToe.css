@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    margin: 20px; 
+    text-align: center; 
+    font-family: Chalkduster, fantasy; 
+    color: #e6e6e6; 
+    cursor: default; }
+
+.title {
+    font-size: 50px; }
+
+.menuclass {
+    max-width: 100%;
+    margin: 0px auto 20px auto; }
+
+.columnwrap {
+    margin: 0px 40px 5px 40px;
+    max-width: 50%;
+    text-align: left;
+    display: inline-block; }
+
+.line {
+    display: block; }
+
+input {
+    cursor: pointer; }
+
+.menu {
+    display: inline;
+    cursor: pointer;
+    font-family: Chalkduster, fantasy; 
+    font-size: 15px;
+    color: #ccc;
+    background-color: #555; }
+
+.boardwrap {
+    margin: 30px 0px 50px 0px; }
+
+.btn {
+    cursor: default;
+    font-size: 80px;
+    border-style: solid;
+    width: 100px;
+    height: 100px; 
+    background-color: rgba(0,0,0,0);
+    display: inline-block; }
+
+@media all and (max-width: 410px) {
+    .btn {
+        font-size: 40px;
+        width: 50px;
+        height: 50px; }
+    
+    .columnwrap {
+        font-size: 15px;
+        margin: 0px 10px 10px 10px; }
+}
+
+#btn4 { border-width: 0px 1px 1px 0px; }
+#btn3 { border-width: 0px 1px 1px 1px; }
+#btn8 { border-width: 0px 0px 1px 1px; }
+#btn9 { border-width: 1px 1px 1px 0px; }
+#btn5 { border-width: 1px; }
+#btn1 { border-width: 1px 0px 1px 1px; }
+#btn2 { border-width: 1px 1px 0px 0px; }
+#btn7 { border-width: 1px 1px 0px 1px; }
+#btn6 { border-width: 1px 0px 0px 1px; }

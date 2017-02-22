@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title>FCC Tic-Tac-Toe Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="FccTicTacToe.css">
+    </head>
+
+    <body>
+        <div class="title">Tic-Tac-Toe</div>
+        
+        <div class="menuclass">
+            <div class="menuwrap">
+                <div class="columnwrap">
+                    <p class="line">Player 1</p>
+                    <div class="line"><input type="radio" id="player1x" name="player1" value="X" checked="checked">X</div>
+                    <div class="line"><input type="radio" id="player1o" name="player1" value="O">O</div>
+                </div>
+                <div class="columnwrap">
+                    <p class="line">Player 2</p>
+                    <div class="line"><input type="radio" id="computer" name="player2" value="computer" checked="checked">computer</div>
+                    <div class="line"><input type="radio" id="human" name="player2" value="human">human</div>
+                </div>
+            </div>
+            <p class="turn">X goes first</p>
+            <button class="menu" id="start">START</button>
+            <button class="menu" id="reset">RESET</button>
+        </div>
+        <div class="boardwrap">
+            <div class="row">
+                <div class="btn" id="btn4" value=4>&nbsp</div><!--
+                --><div class="btn" id="btn3" value=3>&nbsp</div><!--
+                --><div class="btn" id="btn8" value=8>&nbsp</div>
+            </div>
+            <div class="row">
+                <div class="btn" id="btn9" value=9>&nbsp</div><!--
+                --><div class="btn" id="btn5" value=5>&nbsp</div><!--
+                --><div class="btn" id="btn1" value=1>&nbsp</div>
+            </div>
+            <div class="row">
+                <div class="btn" id="btn2" value=2>&nbsp</div><!--
+                --><div class="btn" id="btn7" value=7>&nbsp</div><!--
+                --><div class="btn" id="btn6" value=6>&nbsp</div>
+            </div>
+        </div>
+        <script src="jquery-3.1.0.js"></script>
+        <script src="FccTicTacToe.js"></script>
+    </body> 
+
+</html>
