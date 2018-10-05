@@ -1,5 +1,5 @@
 ## FCC-Tic-Tac-Toe
-##### Tic-Tac-Toe project for [freecodecamp.com](https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game)
+##### Tic-Tac-Toe project for [freeCodeCamp](https://www.freecodecamp.org/)
 ##### Check it out [here](https://mot01.github.io/FCC-Tic-Tac-Toe/)
 
 <br/>
